@@ -1,7 +1,7 @@
 // dados das cartas
 var cartaNagato = {
   nome:"Nagato",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/7/7a/Nagato_Jovem.png/revision/latest/scale-to-width-down/310?cb=20200313165236&path-prefix=pt-br",
+  imagem:"imagens/nagato.png",
   atributos:{
     ninjutsu:10,
     genjutsu:0,
@@ -10,7 +10,7 @@ var cartaNagato = {
 }
 var cartaKonan = {
   nome:"Konan",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/b/b4/Konan_%28Parte_II%29.png/revision/latest/scale-to-width-down/310?cb=20151220140904&path-prefix=pt-br",
+  imagem:"imagens/konan.png",
   atributos:{
     ninjutsu:8,
     genjutsu:0,
@@ -19,7 +19,7 @@ var cartaKonan = {
 }
 var cartaItachi = {
   nome:"Itachi Uchiha",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/8/8d/UchihaItachi.png/revision/latest/scale-to-width-down/310?cb=20180420021356&path-prefix=pt-br",
+  imagem:"imagens/itachi.png",
   atributos:{
     ninjutsu:9,
     genjutsu:10,
@@ -28,7 +28,7 @@ var cartaItachi = {
 }
 var cartaTobi = {
   nome:"Tobi",
-  imagem:"https://i.pinimg.com/originals/bd/18/15/bd1815e277afa27f66f61647fd42bae8.jpg",
+  imagem:"imagens/tobi.jpg",
   atributos:{
     ninjutsu:10,
     genjutsu:8,
@@ -37,7 +37,7 @@ var cartaTobi = {
 }
 var cartaZetsu = {
   nome:"Zetsu",
-  imagem:"http://pm1.narvii.com/6243/0fb372fcae9d0476ea58ebe56bac72666a3bfff1_00.jpg",
+  imagem:"imagens/zetsu.jpg",
   atributos:{
     ninjutsu:6,
     genjutsu:6,
@@ -46,7 +46,7 @@ var cartaZetsu = {
 }
 var cartaDeidara = {
   nome:"Deidara",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/c/c8/Deidara_surpreso_com_o_Sharingan_de_Itachi.png/revision/latest/scale-to-width-down/310?cb=20160329031729&path-prefix=pt-br",
+  imagem:"imagens/deidara.jpg",
   atributos:{
     ninjutsu:8,
     genjutsu:0,
@@ -55,7 +55,7 @@ var cartaDeidara = {
 }
 var cartaSasori = {
   nome:"Sasori",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/2/26/Sasori_%28Passado%29.PNG/revision/latest/scale-to-width-down/310?cb=20141202201336&path-prefix=pt-br",
+  imagem:"imagens/sasori.png",
   atributos:{
     ninjutsu:10,
     genjutsu:0,
@@ -64,7 +64,7 @@ var cartaSasori = {
 }
 var cartaHidan = {
   nome:"Hidan",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/0/0f/Hidan_Parte_II.png/revision/latest/scale-to-width-down/310?cb=20160521003057&path-prefix=pt-br",
+  imagem:"imagens/hidan.png",
   atributos:{
     ninjutsu:7,
     genjutsu:0,
@@ -73,7 +73,7 @@ var cartaHidan = {
 }
 var cartaKakuzu = {
   nome:"Kakuzu",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/a/a3/Kakuzu_%28Shippuden%29.png/revision/latest/scale-to-width-down/310?cb=20140825181534&path-prefix=pt-br",
+  imagem:"imagens/kakuzu.png",
   atributos:{
     ninjutsu:7,
     genjutsu:0,
@@ -82,7 +82,7 @@ var cartaKakuzu = {
 }
 var cartaKisame = {
   nome:"Kisame Hoshigaki",
-  imagem:"https://static.wikia.nocookie.net/naruto/images/c/c9/Kisame_Hoshigaki.png/revision/latest/scale-to-width-down/310?cb=20130305034004&path-prefix=pt-br",
+  imagem:"images/kisame.png",
   atributos:{
     ninjutsu:9,
     genjutsu:0,
@@ -222,11 +222,3 @@ function proximaRodada() {
 
 
 
-
-/*
-
-#Desafios
-
-[] fazer a maquina escolher o atributo nas rodadas pares
-[] fazer quem ganha pegar a carta de quem perdeu
-*/
