@@ -1,2 +1,2 @@
 # DemoSuperTrunfoAkatsuki
-ja ja eu apago
+Eu so to testando os códigos e aprendendo a usar o gitHub
